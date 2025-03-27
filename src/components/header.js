@@ -8,7 +8,7 @@ const Header = ({ text = 'Feedback UI', bgColor, textColor }) => {
 
     return (
         <header style={headerStyle}>
-            <div className='container'>{text}</div>
+            <div className='container'>{text} by Zeofix</div>
         </header>
     );
 }
